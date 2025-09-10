@@ -1,0 +1,30 @@
+A Label object is a component for placing text in a container.
+Single line of read-only text.
+The text can be changed by the application, but a user cannot edit it directly
+
+BorderLayout
+É um gerenciador de layout que organiza os componentes, sendo a parte superior do contêiner dividida em cinco regiões:
+NORTH,SOUTH,EAST,WEST,CENTER
+
+FlowLayout
+places components in a row, sized at their preferred size.
+If the horizontal space in the container is too small,
+the FlowLayout class uses the next available row.
+
+GridLayout
+places components in a grid of cells.
+Each component takes all the available space within its cell,
+and each cell is the same size.
+
+JLayeredPane = Swing container that provides a
+third dimension for positioning components
+ex. depth, Z-index
+
+JOptionPane = pop up a standard dialog box that prompts users for a value
+or informs them of something.
+
+JTextField = A GUI textbox component that can be used to add, set, or get text
+JCheckBox = A GUI component that can be selected or deselected
+JRadioButton = One or more buttons in a grouping in which only 1 may be selected per group
+JComboBox = A component that combines a button or editable field and a drop-down list
+JSlider = user enter a value by using an adjustable sliding knob on a track
